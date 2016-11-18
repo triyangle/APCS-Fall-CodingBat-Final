@@ -48,13 +48,13 @@ public class CountD {
 		return charCount.size();
 
 	}
-	
+
 	public static void main(String[] args) {
-		
+
 		CountD test = new CountD();
 		System.out.println(test.countD("abc"));
 		System.out.println(test.countD("Abc"));
 		System.out.println(test.countD("12345tgfd"));
-		
+
 	}
 }

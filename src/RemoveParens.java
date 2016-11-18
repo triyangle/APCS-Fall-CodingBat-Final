@@ -37,7 +37,7 @@ public class RemoveParens {
 		System.out.println(test.removeParens("()"));
 		System.out.println(test.removeParens("(a)"));
 		System.out.println(test.removeParens("((()))))(((()))"));
-		
+
 	}
 
 }

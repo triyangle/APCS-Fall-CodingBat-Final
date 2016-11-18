@@ -15,7 +15,7 @@ public class SameNoParen {
 	public void numberOfVars() {
 
 		for(int i = 0; i < sentence.length(); i++) {
-			
+
 			switch(sentence.charAt(i)) {
 
 			case '~':
@@ -99,7 +99,7 @@ public class SameNoParen {
 				evaluateSentence2.setCharAt(i, variableValues.get(variable) ? 'T' : 'F');
 				break;
 
-			} 
+			}
 		}
 	}
 
@@ -171,7 +171,7 @@ public class SameNoParen {
 
 			}
 
-		} 
+		}
 
 		return evaluate.charAt(0) == 'T' ? true : false;
 
@@ -216,7 +216,7 @@ public class SameNoParen {
 
 	}
 
-	public boolean sameNoParen(String str){  
+	public boolean sameNoParen(String str){
 
 		sentence = str;
 		sentence2 = removeParens(str);

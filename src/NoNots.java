@@ -54,7 +54,7 @@ public class NoNots {
 
 				return not(not(exp.substring(1, exp.length())));
 
-			} 
+			}
 		}
 
 		return exp.charAt(0) == 'T' ? "F" : "T";
@@ -67,7 +67,7 @@ public class NoNots {
 		System.out.println(test.noNots("~T|F&~T"));
 		System.out.println(test.noNots("T&T&~~~~T"));
 		System.out.println(test.noNots("~~~T&F"));
-		
+
 	}
 
 }

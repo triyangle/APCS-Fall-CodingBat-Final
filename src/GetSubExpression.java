@@ -38,11 +38,11 @@ public class GetSubExpression {
 				break;
 
 			}
-			
+
 			if(endIndex != 0) {
-				
+
 				break;
-				
+
 			}
 
 		}
